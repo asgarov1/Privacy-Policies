@@ -1,4 +1,4 @@
-# Privacy Policy
+# Jlingo German A2 Privacy Policy
 
 - **App:** Jlingo German A2
 - **Effective date:** 2026-04-06
