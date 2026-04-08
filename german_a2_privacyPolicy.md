@@ -1,8 +1,8 @@
 # Privacy Policy
 
-**App:** Jlingo German A2
-**Effective date:** 2026-04-06
-**Developer:** Javid Asgarov
+- **App:** Jlingo German A2
+- **Effective date:** 2026-04-06
+- **Developer:** Javid Asgarov
 
 ---
 
