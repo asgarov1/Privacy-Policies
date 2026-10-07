@@ -1,14 +1,14 @@
 # Privacy Policy
 
-**App:** Jlingo Korean TOPIK I
+**App:** Jlingo Korean TOPIK
 
-**Effective date:** 2026-09-14
+**Effective date:** 2026-10-08
 
 **Developer:** Javid Asgarov
 
 ## Learning data
 
-Jlingo Korean TOPIK I stores learning progress, custom learning entries, quiz results,
+Jlingo Korean TOPIK stores learning progress, custom learning entries, quiz results,
 preferences, streaks, and purchase entitlement information on your device. The
 app does not send this learning data to a developer-operated server. Device
 backups are controlled by your device and Apple account settings.
