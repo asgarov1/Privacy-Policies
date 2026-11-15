@@ -1,22 +1,20 @@
 # Privacy Policy
 
 **App:** Jlingo Spanish B2
-**Effective date:** 2026-05-24
+**Effective date:** 2026-11-15
 **Developer:** Javid Asgarov
 
 ---
 
 ## 1. Overview
 
-Jlingo Spanish B2 – ("the App") is designed with your privacy in mind. The App does not collect, store, or share any personal information on external servers. All data generated while using the App remains on your device.
+Jlingo Spanish B2 ("the App") is an offline learning app. The developer does not operate a server that automatically collects your learning activity, and the App has no account registration, advertising, or analytics. Learning content and pronunciation audio are bundled with the App. Purchases and subscription management use Apple's services. You can choose to send feedback or share files, as described below.
 
 ---
 
 ## 2. Data We Collect
 
-**We do not collect any personal data.**
-
-The App stores the following information **locally on your device only**:
+The App stores the following information locally on your device:
 
 | Data | Purpose | Storage |
 |------|---------|---------|
@@ -26,14 +24,21 @@ The App stores the following information **locally on your device only**:
 | Grammar rules studied | Track your learning progress | On-device only |
 | Quiz high score | Show your best result | On-device only |
 | Premium subscription status | Unlock premium features | On-device only |
+| Custom words, phrases, and verbs | Store learning content you add | On-device only |
+| Study streaks, study time, and reminder preferences | Track study habits and schedule optional local reminders | On-device only |
+| Language and display preferences | Remember your settings | On-device only |
+| Certificate details you enter and completion results | Create a course-completion certificate | On-device only unless you export it |
+| Diagnostic logs, including app version and technical events | Help investigate app problems | On-device only unless you export them |
 
-This data is never transmitted to the developer or any third party.
+The App does not automatically upload these records to the developer. Your device's backup services may include app data according to your Apple settings. If you export a certificate or diagnostic log, or send feedback, the information you choose to share is handled by the destination app or service. Please review files before sharing them and avoid including information you do not want to disclose.
 
 ---
 
 ## 3. In-App Purchases
 
-The App offers a monthly premium subscription. All purchases are processed exclusively by **Apple's App Store**. The developer does not receive, store, or have access to your payment information.
+The App offers auto-renewable premium subscriptions with **one-month, three-month, and six-month** billing periods. Available plans and prices are shown in Apple's purchase confirmation. Existing eligible one-time premium purchases remain recognized but are no longer offered for sale.
+
+Purchases, renewals, and restorations are processed by **Apple's App Store**. The App uses StoreKit transaction and entitlement information to determine whether premium access is active. The developer does not receive your payment-card details. You can manage or cancel subscriptions in your Apple account settings. Deleting the App does not cancel an active subscription.
 
 Apple's handling of purchase data is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -41,31 +46,35 @@ Apple's handling of purchase data is governed by [Apple's Privacy Policy](https:
 
 ## 4. Third-Party Services
 
-The App does not integrate any third-party analytics, advertising, crash-reporting, or tracking SDKs. No data is shared with third parties.
+The App does not integrate third-party analytics, advertising, crash-reporting, or tracking SDKs. Apple provides purchase and subscription services. Opening an external link, sending feedback, or sharing an exported file uses the service you select, subject to that service's privacy practices. Feedback you email to the developer includes your email address and whatever information you provide; it is used to respond to your request.
+
+Study reminders are optional local notifications, scheduled on your device with your permission. They do not require a developer-operated push-notification server.
 
 ---
 
 ## 5. Children's Privacy
 
-The App does not knowingly collect any data from users of any age, including children under 13. Because no personal information is collected at all, the App is safe for all ages.
+The App does not require personal information to study and does not automatically collect learning activity from children. If you believe a child has sent personal information to the developer through feedback, contact us to request its deletion.
 
 ---
 
 ## 6. Data Security
 
-Since all app data is stored locally on your device, it is protected by your device's built-in security (e.g., passcode, Face ID, or Touch ID). The developer has no access to your data and therefore cannot breach, misuse, or lose it.
+Local app data is protected by the security features of your device and operating system. Keep your device and backups secure. Files you export are subject to the protection and retention policies of the destination you choose. No storage or transmission method can be guaranteed completely secure.
 
 ---
 
 ## 7. Your Rights
 
-Because the App does not collect any personal data, there is nothing for the developer to access, correct, or delete on your behalf. You can remove all app data at any time by deleting the App from your device.
+You can reset learning progress, edit or delete custom learning items, clear diagnostic logs, and disable study reminders in the App or system settings. Deleting the App removes its local data from that device; separately manage any backups or files you have exported. Manage subscriptions through Apple even if you remove the App.
+
+The developer cannot access or change your local learning records. If you have contacted us by email, you can ask us to access, correct, or delete information you supplied. We retain correspondence only as needed to address the request and meet applicable obligations.
 
 ---
 
 ## 8. Changes to This Policy
 
-If this privacy policy changes, the updated version will be published with a new effective date. Continued use of the App after any changes constitutes acceptance of the updated policy.
+If this privacy policy changes, the updated version will be published with a new effective date.
 
 ---
 
@@ -77,4 +86,4 @@ If you have any questions about this privacy policy, please contact:
 
 ---
 
-*This privacy policy was last updated on 2026-05-24.*
+*This privacy policy was last updated on 2026-11-15.*
