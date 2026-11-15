@@ -1,21 +1,21 @@
 # Privacy Policy
 
-**App:** Jlingo Korean TOPIK
+**App:** Jlingo Korean Topik I + II
 
-**Effective date:** 2026-10-08
+**Effective date:** 2026-11-15
 
 **Developer:** Javid Asgarov
 
 ## Learning data
 
-Jlingo Korean TOPIK stores learning progress, custom learning entries, quiz results,
-preferences, streaks, and purchase entitlement information on your device. The
+Jlingo Korean Topik I + II stores learning progress, custom learning entries, quiz results,
+preferences (including your selected TOPIK level), streaks, and purchase entitlement information on your device. The
 app does not send this learning data to a developer-operated server. Device
 backups are controlled by your device and Apple account settings.
 
 ## Purchases
 
-An optional one-time premium purchase uses Apple's StoreKit and App Store services.
+Optional premium subscriptions use Apple's StoreKit and App Store services.
 Apple processes payment and transaction information. The developer does not
 receive your payment-card details. Apple's practices are described in
 [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
