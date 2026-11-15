@@ -23,6 +23,10 @@ you share. The certificate is not an official HSK result or accredited Chinese
 qualification. If you email feedback, your email provider and the developer
 receive the message and contact information you include.
 
+Diagnostic logs are stored locally to help troubleshoot the app. You can view,
+clear, or export them from Settings. Logs are not uploaded automatically; if
+you share an export, the destination receives the information in that file.
+
 The app contains no third-party advertising or analytics SDKs and does not track
 you across apps or websites. Deleting the app removes locally stored data;
 backups may remain according to your Apple account settings. Purchases can be
