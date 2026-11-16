@@ -1,10 +1,10 @@
-# Privacy Policy — Jlingo Chinese HSK 1–9
+# Privacy Policy — Jlingo Chinese HSK
 
 **Effective date:** November 16, 2026
 
 **Developer:** Javid Asgarov
 
-Jlingo Chinese HSK 1–9 stores learning progress, custom learning entries, quiz
+Jlingo Chinese HSK stores learning progress, custom learning entries, quiz
 results, review schedules, preferences, streaks, and purchase entitlement
 information locally on your device. The app does not send this learning data to a developer-operated
 server. Device backups are controlled by your device and Apple account settings.
