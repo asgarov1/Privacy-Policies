@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **App:** Jlingo Spanish C1
-**Effective date:** 2026-05-24
+**Effective date:** 2026-11-19
 **Developer:** Javid Asgarov
 
 ---
@@ -33,7 +33,7 @@ This data is never transmitted to the developer or any third party.
 
 ## 3. In-App Purchases
 
-The App offers a monthly premium subscription. All purchases are processed exclusively by **Apple's App Store**. The developer does not receive, store, or have access to your payment information.
+The App offers premium subscriptions for one month, three months, or six months. All purchases are processed exclusively by **Apple's App Store**. The developer does not receive, store, or have access to your payment information.
 
 Apple's handling of purchase data is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -77,4 +77,4 @@ If you have any questions about this privacy policy, please contact:
 
 ---
 
-*This privacy policy was last updated on 2026-05-24.*
+*This privacy policy was last updated on 2026-11-19.*
