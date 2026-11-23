@@ -43,9 +43,9 @@ contacts, location, microphone, camera, or photos.
 
 ## Computer evaluation
 
-When a practice board is displayed, a move changes its position, or you tap
-“Try again” after an unavailable evaluation, the app sends that position in FEN
-notation to **lichess.org** over HTTPS to request a cached computer evaluation.
+When a practice board is displayed or a move changes its position, the app sends
+that position in FEN notation to **lichess.org** over HTTPS to request a cached
+computer evaluation.
 If Lichess has no cached evaluation, fails, times out, or returns an unusable
 response, the app sends the position to **chess-api.com** over HTTPS as a backup.
 FEN describes the pieces, side to move, castling rights, en passant square, and
@@ -64,11 +64,12 @@ The app uses an ephemeral network session without stored cookies, credentials or
 a disk response cache. Successful evaluations are cached only in memory, with a
 limit of 200 positions. The app does not send evaluations or positions to a
 developer-operated server. Evaluation is informational and never determines
-whether an exercise is passed. If neither service provides a usable evaluation, the score is replaced by an
-unavailable indicator and you can retry manually. Each provider is attempted
-at most once per evaluation request; there are no automatic retries of the same
-provider. Changing positions or leaving the board cancels pending work without
-starting a backup request. Provider request starts, successful evaluations, cache
+whether an exercise is passed. While an evaluation is loading, or if neither
+service provides a usable evaluation, the evaluation rail stays empty. There is
+no loading or unavailable indicator and no manual evaluation retry control. Each
+provider is attempted at most once per evaluation request; there are no automatic
+retries of the same provider. Changing positions or leaving the board cancels
+pending work without starting a backup request. Provider request starts, successful evaluations, cache
 hits and misses, cancellations, and network or response failures are recorded only
 in the session logs. A temporary request identifier connects related provider
 attempts within those logs; it is not sent to either service. Evaluation logs omit
