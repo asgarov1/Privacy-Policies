@@ -29,10 +29,32 @@ Logs. They are discarded when the app process ends. If you choose Share logs, th
 system share sheet sends the displayed log text to the destination you select;
 that destination's own privacy practices apply.
 
-The developer does not collect, transmit, sell, or share your progress or other
-personal information automatically through the app. The app has no advertising,
+The developer does not receive or sell your learning progress. Computer evaluation
+sends practice positions to a third-party service as described below. The app has no advertising,
 analytics, tracking, or third-party SDKs. It does not request access to
 contacts, location, microphone, camera, or photos.
+
+## Computer evaluation
+
+When a practice board is displayed or a move changes its position, the app sends
+that position in FEN notation to **chess-api.com** over HTTPS to request a computer
+evaluation. FEN describes the pieces, side to move, castling rights, en passant
+square, and move counters. Requests also specify analysis settings. They do not
+include your saved completion history, diagnostic logs, language preference,
+subscription status, name, email, or a persistent app-generated identifier.
+
+Like any internet service, chess-api.com receives your IP address and normal
+connection metadata when handling requests. The service operates independently;
+its handling and retention of server-side data are outside the developer's
+control. See [chess-api.com](https://chess-api.com/) for service information.
+
+The app uses an ephemeral network session without stored cookies, credentials or
+a disk response cache. Successful evaluations are cached only in memory, with a
+limit of 200 positions. The app does not send evaluations or positions to a
+developer-operated server. Evaluation is informational and never determines
+whether an exercise is passed. If the service is unavailable, times out or returns
+an unusable response, the evaluation disappears and practice continues normally.
+Evaluation requires internet access; the lessons and authored moves work without it.
 
 ## Subscriptions and Apple
 
@@ -80,7 +102,8 @@ is no developer-held account or personal dataset to delete or export.
 
 ## Children
 
-The app does not collect personal information from users, including children.
+No account, advertising or analytics is provided for any user, including children.
+Computer-evaluation requests use the same third-party service described above.
 
 ## Changes and contact
 
