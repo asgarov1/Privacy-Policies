@@ -14,6 +14,13 @@ The app stores the identifiers of completed principles on your device so it can
 remember your progress and unlock the next step. Practice selections and hints are
 held in memory for the current session. No account is required.
 
+The app reads your device’s preferred languages once to choose an available
+translation, falling back to English if none matches. It saves that choice locally
+in UserDefaults. You can change it under Settings → Language; your saved choice
+takes precedence on later launches, even if the device language changes. The
+language preference and device language information are not transmitted to the
+developer. All lesson translations are bundled with the app.
+
 A password-protected developer override can enable Premium on this device. The
 app stores only its enabled setting locally in UserDefaults, so it persists across
 launches until disabled. The entered password is held temporarily in memory and
@@ -24,7 +31,7 @@ progress and any active paid subscription.
 The app also keeps up to 300 diagnostic log entries in memory for the current app
 session. These include timestamps, the app version, lesson identifiers, practice
 moves and their outcomes, and progress events. Logs are not saved to disk, included
-in backups, or sent automatically. You can view or clear them under Information →
+in backups, or sent automatically. You can view or clear them under Settings → About Chess Principles →
 Logs. They are discarded when the app process ends. If you choose Share logs, the
 system share sheet sends the displayed log text to the destination you select;
 that destination's own privacy practices apply.
@@ -72,9 +79,23 @@ An internet connection may be needed to load plans, buy or restore purchases,
 and update subscription status. Restore purchases contacts Apple only when you
 choose that action. Manage subscription opens Apple's subscription settings.
 
+## Email feedback
+
+Submit feedback in the app’s About screen opens a draft addressed to
+**office@asgarovsoftware.com** in your email app. The draft includes the app name,
+version, and build number. No diagnostic logs, saved progress, subscription data,
+device identifiers, or attachments are added automatically. You can edit or
+cancel the draft; opening it does not send an email. If an email app is unavailable,
+you can choose to copy the support address to your device’s clipboard.
+
+If you send feedback, the developer receives your email address, your message,
+and anything you choose to include, and uses them to respond and investigate the
+feedback. Your email provider’s privacy practices also apply. You can request
+deletion of feedback correspondence by contacting the address above.
+
 ## Device backups and external links
 
-Locally saved progress and the developer override setting may be included in
+Locally saved progress, the language preference, and the developer override setting may be included in
 device backups according to your Apple settings. Apple operates those services
 under its own privacy policy. The developer
 cannot access your backups. Opening the privacy-policy link uses your browser and
@@ -97,8 +118,9 @@ subscription from the Premium screen. Deleting the app does not cancel an Apple
 subscription.
 
 Subscription expiry does not erase your completed-principle progress. Deleting the
-app removes its local progress, subject to your device and backup settings. There
-is no developer-held account or personal dataset to delete or export.
+app removes its local progress and language preference, subject to your device and backup settings. There
+is no developer-held app account or learning-progress dataset to delete or export.
+Feedback emails you choose to send are handled as described above.
 
 ## Children
 
