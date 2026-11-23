@@ -23,6 +23,8 @@ Your local app data may be included in device backups according to your Apple se
 
 Opening an instructional source or the privacy-policy link launches an external website in your browser. Those websites receive normal web requests and operate under their own privacy policies. No lesson progress or quiz answers are included in these links.
 
+The optional “See our other apps” page displays a bundled app list without making network requests. Selecting an app or the developer link opens Apple’s App Store or website, subject to Apple’s privacy policy. No lesson progress, quiz answers, or session logs are included in these links.
+
 ## Your choices
 
 All lessons work without an internet connection. Deleting the app removes its local progress, subject to your device and backup settings. There is no developer-held personal dataset or account to delete or export.
