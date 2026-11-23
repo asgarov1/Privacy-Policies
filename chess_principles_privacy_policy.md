@@ -43,9 +43,9 @@ contacts, location, microphone, camera, or photos.
 
 ## Computer evaluation
 
-When a practice board is displayed or a move changes its position, the app sends
-that position in FEN notation to **chess-api.com** over HTTPS to request a computer
-evaluation. FEN describes the pieces, side to move, castling rights, en passant
+When a practice board is displayed, a move changes its position, or you tap
+“Try again” after an unavailable evaluation, the app sends that position in FEN
+notation to **chess-api.com** over HTTPS to request a computer evaluation. FEN describes the pieces, side to move, castling rights, en passant
 square, and move counters. Requests also specify analysis settings. They do not
 include your saved completion history, diagnostic logs, language preference,
 subscription status, name, email, or a persistent app-generated identifier.
@@ -60,8 +60,11 @@ a disk response cache. Successful evaluations are cached only in memory, with a
 limit of 200 positions. The app does not send evaluations or positions to a
 developer-operated server. Evaluation is informational and never determines
 whether an exercise is passed. If the service is unavailable, times out or returns
-an unusable response, the evaluation disappears and practice continues normally.
-Evaluation requires internet access; the lessons and authored moves work without it.
+an unusable response, the score is replaced by an unavailable indicator and you
+can retry manually. There are no automatic retries. Network and HTTP failures are
+recorded only in the session logs, without board positions or response payloads.
+Practice continues normally. Evaluation requires internet access; the lessons and
+authored moves work without it.
 
 ## Subscriptions and Apple
 
