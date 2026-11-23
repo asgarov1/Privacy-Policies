@@ -31,7 +31,7 @@ progress and any active paid subscription.
 The app also keeps up to 300 diagnostic log entries in memory for the current app
 session. These include timestamps, the app version, lesson identifiers, practice
 moves and their outcomes, and progress events. Logs are not saved to disk, included
-in backups, or sent automatically. You can view or clear them under Settings → About Chess Principles →
+in backups, or sent automatically. You can view or clear them under Settings →
 Logs. They are discarded when the app process ends. If you choose Share logs, the
 system share sheet sends the displayed log text to the destination you select;
 that destination's own privacy practices apply.
