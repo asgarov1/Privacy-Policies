@@ -14,6 +14,13 @@ The app stores the identifiers of completed principles on your device so it can
 remember your progress and unlock the next step. Practice selections and hints are
 held in memory for the current session. No account is required.
 
+A password-protected developer override can enable Premium on this device. The
+app stores only its enabled setting locally in UserDefaults, so it persists across
+launches until disabled. The entered password is held temporarily in memory and
+is not saved, logged, or transmitted. This feature does not check your iCloud
+identity, contact a server, or create a purchase. Disabling it preserves lesson
+progress and any active paid subscription.
+
 The app also keeps up to 300 diagnostic log entries in memory for the current app
 session. These include timestamps, the app version, lesson identifiers, practice
 moves and their outcomes, and progress events. Logs are not saved to disk, included
@@ -45,8 +52,9 @@ choose that action. Manage subscription opens Apple's subscription settings.
 
 ## Device backups and external links
 
-Locally saved progress may be included in device backups according to your Apple
-settings. Apple operates those services under its own privacy policy. The developer
+Locally saved progress and the developer override setting may be included in
+device backups according to your Apple settings. Apple operates those services
+under its own privacy policy. The developer
 cannot access your backups. Opening the privacy-policy link uses your browser and
 visits GitHub, whose own privacy policy applies to that visit. Opening Terms of
 Use visits Apple; Apple’s privacy practices apply there.
@@ -55,8 +63,11 @@ Use visits Apple; Apple’s privacy practices apply there.
 
 Free lessons are available without an internet connection. Premium lessons are
 available while StoreKit confirms an active entitlement, including cached access
-when available offline. You can restore purchases or manage/cancel a subscription
-from the Premium screen. Deleting the app does not cancel an Apple subscription.
+when available offline, or while the local developer override is enabled. You
+can disable the override by holding the journey’s knight for three seconds and
+choosing Disable premium mode. You can restore purchases or manage/cancel a
+subscription from the Premium screen. Deleting the app does not cancel an Apple
+subscription.
 
 Subscription expiry does not erase your completed-principle progress. Deleting the
 app removes its local progress, subject to your device and backup settings. There
