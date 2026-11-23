@@ -4,8 +4,9 @@
 
 **Developer:** Javid Asgarov
 
-Chess Principles is an offline educational iOS app with guided chess explanations
-and practice exercises.
+Chess Principles is an educational iOS app with guided chess explanations and
+practice exercises. Lessons through Bishop pair are free; later lessons require
+an active Premium subscription.
 
 ## Information stored on your device
 
@@ -23,21 +24,43 @@ that destination's own privacy practices apply.
 
 The developer does not collect, transmit, sell, or share your progress or other
 personal information automatically through the app. The app has no advertising,
-analytics, tracking, third-party SDKs, or in-app purchases. It does not request access to
+analytics, tracking, or third-party SDKs. It does not request access to
 contacts, location, microphone, camera, or photos.
+
+## Subscriptions and Apple
+
+Optional auto-renewable monthly, quarterly (three-month), and yearly subscriptions
+are sold and managed by Apple through the App Store and StoreKit. Apple processes
+your purchase and payment information under its own privacy policy. The developer
+does not receive your payment-card details.
+
+The app requests subscription products and prices from Apple and reads verified
+StoreKit transactions to determine whether Premium access is active. StoreKit
+may cache transaction information on your device. The app does not send your
+transaction identifiers, receipts, subscription status, or learning progress to
+a developer-operated server, and does not store a separate purchase history.
+An internet connection may be needed to load plans, buy or restore purchases,
+and update subscription status. Restore purchases contacts Apple only when you
+choose that action. Manage subscription opens Apple's subscription settings.
 
 ## Device backups and external links
 
 Locally saved progress may be included in device backups according to your Apple
 settings. Apple operates those services under its own privacy policy. The developer
 cannot access your backups. Opening the privacy-policy link uses your browser and
-visits GitHub, whose own privacy policy applies to that visit.
+visits GitHub, whose own privacy policy applies to that visit. Opening Terms of
+Use visits Apple; Apple’s privacy practices apply there.
 
 ## Your choices
 
-You may use all learning content without an internet connection. Deleting the app
-removes its local progress, subject to your device and backup settings. There is no
-developer-held account or personal dataset to delete or export.
+Free lessons are available without an internet connection. Premium lessons are
+available while StoreKit confirms an active entitlement, including cached access
+when available offline. You can restore purchases or manage/cancel a subscription
+from the Premium screen. Deleting the app does not cancel an Apple subscription.
+
+Subscription expiry does not erase your completed-principle progress. Deleting the
+app removes its local progress, subject to your device and backup settings. There
+is no developer-held account or personal dataset to delete or export.
 
 ## Children
 
