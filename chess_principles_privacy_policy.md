@@ -59,6 +59,11 @@ cannot access your backups. Opening the privacy-policy link uses your browser an
 visits GitHub, whose own privacy policy applies to that visit. Opening Terms of
 Use visits Apple; Apple’s privacy practices apply there.
 
+The “See our other apps” page displays a bundled catalog and artwork without
+network requests. Choosing an app opens its App Store page; Apple’s privacy
+practices apply to that visit. No learning progress or diagnostic logs are sent
+with these links.
+
 ## Your choices
 
 Free lessons are available without an internet connection. Premium lessons are
