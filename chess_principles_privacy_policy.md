@@ -68,8 +68,11 @@ whether an exercise is passed. If neither service provides a usable evaluation, 
 unavailable indicator and you can retry manually. Each provider is attempted
 at most once per evaluation request; there are no automatic retries of the same
 provider. Changing positions or leaving the board cancels pending work without
-starting a backup request. Network and HTTP failures are
-recorded only in the session logs, without board positions or response payloads.
+starting a backup request. Provider request starts, successful evaluations, cache
+hits and misses, cancellations, and network or response failures are recorded only
+in the session logs. A temporary request identifier connects related provider
+attempts within those logs; it is not sent to either service. Evaluation logs omit
+board positions, request URLs, and response payloads.
 Practice continues normally. Evaluation requires internet access; the lessons and
 authored moves work without it.
 
