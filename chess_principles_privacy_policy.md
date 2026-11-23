@@ -37,7 +37,7 @@ system share sheet sends the displayed log text to the destination you select;
 that destination's own privacy practices apply.
 
 The developer does not receive or sell your learning progress. Computer evaluation
-sends practice positions to a third-party service as described below. The app has no advertising,
+sends practice positions to third-party services as described below. The app has no advertising,
 analytics, tracking, or third-party SDKs. It does not request access to
 contacts, location, microphone, camera, or photos.
 
@@ -45,23 +45,30 @@ contacts, location, microphone, camera, or photos.
 
 When a practice board is displayed, a move changes its position, or you tap
 “Try again” after an unavailable evaluation, the app sends that position in FEN
-notation to **chess-api.com** over HTTPS to request a computer evaluation. FEN describes the pieces, side to move, castling rights, en passant
-square, and move counters. Requests also specify analysis settings. They do not
+notation to **lichess.org** over HTTPS to request a cached computer evaluation.
+If Lichess has no cached evaluation, fails, times out, or returns an unusable
+response, the app sends the position to **chess-api.com** over HTTPS as a backup.
+FEN describes the pieces, side to move, castling rights, en passant square, and
+move counters. Lichess requests put the FEN and variation count in the URL query;
+backup requests put the FEN and analysis settings in a JSON request body. They do not
 include your saved completion history, diagnostic logs, language preference,
 subscription status, name, email, or a persistent app-generated identifier.
 
-Like any internet service, chess-api.com receives your IP address and normal
-connection metadata when handling requests. The service operates independently;
-its handling and retention of server-side data are outside the developer's
-control. See [chess-api.com](https://chess-api.com/) for service information.
+Each contacted service receives your IP address and normal connection metadata
+when handling requests. The services operate independently; their handling and
+retention of server-side data are outside the developer's control. See the
+[Lichess privacy policy](https://lichess.org/privacy) and
+[chess-api.com](https://chess-api.com/) for service information.
 
 The app uses an ephemeral network session without stored cookies, credentials or
 a disk response cache. Successful evaluations are cached only in memory, with a
 limit of 200 positions. The app does not send evaluations or positions to a
 developer-operated server. Evaluation is informational and never determines
-whether an exercise is passed. If the service is unavailable, times out or returns
-an unusable response, the score is replaced by an unavailable indicator and you
-can retry manually. There are no automatic retries. Network and HTTP failures are
+whether an exercise is passed. If neither service provides a usable evaluation, the score is replaced by an
+unavailable indicator and you can retry manually. Each provider is attempted
+at most once per evaluation request; there are no automatic retries of the same
+provider. Changing positions or leaving the board cancels pending work without
+starting a backup request. Network and HTTP failures are
 recorded only in the session logs, without board positions or response payloads.
 Practice continues normally. Evaluation requires internet access; the lessons and
 authored moves work without it.
@@ -128,7 +135,7 @@ Feedback emails you choose to send are handled as described above.
 ## Children
 
 No account, advertising or analytics is provided for any user, including children.
-Computer-evaluation requests use the same third-party service described above.
+Computer-evaluation requests use the same third-party services described above.
 
 ## Changes and contact
 
